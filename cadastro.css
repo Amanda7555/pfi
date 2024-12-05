@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8ddf86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.fundo {
+    background-color: white;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#caixa {
+    font-size: 24px;
+    color: #365b6d;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 207, 194);
+}
+
+input {
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    background-color: #365b6d;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nome input {
+    margin-bottom: 25px;
+}
+
+.enviar-btn,
+button {
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #365b6d;
+    color: white;
+    margin-top: 20px;
+}
+
+.enviar-btn:hover {
+    background-color: #6389db;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.enviar {
+    text-align: center;
+}
+
+.enviar p {
+    margin-top: 15px;
+    font-size: 14px;
+}

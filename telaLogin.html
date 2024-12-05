@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <title>Comunica</title>
+</head>
+<body>
+    <div class="fundo">
+        <form id="login" method="POST" action="{{ url_for('login') }}">
+            <h1>Login</h1>
+            <input type="email" name="email" placeholder="E-mail" class="input">
+            <input type="password" name="senha" placeholder="Senha" class="input">
+            <button type="submit" class="enviar-btn">Enviar</button>
+            <p>Não está logado? <a href="telaCadastro.html">Cadastre-se aqui!</a></p>
+        </form>
+    </div>
+</body>
+</html>

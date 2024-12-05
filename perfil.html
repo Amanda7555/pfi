@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunica</title>
+    <link rel="stylesheet" href="../static/css/perfil.css">
+</head>
+<body>
+    <div class="fundo" method="GET" action="{{url_for('perfil')}}">
+        <div id="nome">
+            <p style="margin-left: 5px;">Nome: {{ nome }}</p>
+        </div>
+        <div id="email">
+            <p style="margin-left: 5px;">E-mail:  {{ email }}</p>
+        </div>
+        <div class="botao-container">
+            <button id="alter">Alterar informações</button>
+        </div>
+        <div>
+            <button id="voltar"><a href="Principal.html"><</a></button>
+        </div>  
+    </div>      
+</body>
+</html>
